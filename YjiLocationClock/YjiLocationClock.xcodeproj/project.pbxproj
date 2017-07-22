@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1F59837DE30FE80A944C4C /* Pods_YjiLocationClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93331255567D3D5F2901B32 /* Pods_YjiLocationClock.framework */; };
+		B22248C01CABFADD002C3DD2 /* YjiBaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22248BD1CABFADD002C3DD2 /* YjiBaseVc.swift */; };
+		B22248C11CABFADD002C3DD2 /* YjiGMapSearchVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22248BE1CABFADD002C3DD2 /* YjiGMapSearchVc.swift */; };
+		B22248C21CABFADD002C3DD2 /* YjiStartVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22248BF1CABFADD002C3DD2 /* YjiStartVc.swift */; };
+		B22248C51CABFB2C002C3DD2 /* YjiMapTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22248C41CABFB2C002C3DD2 /* YjiMapTask.swift */; };
+		B22248C71CAC0FB7002C3DD2 /* YjiComFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22248C61CAC0FB7002C3DD2 /* YjiComFuncs.swift */; };
+		B25A737F1CADFBDA0057B712 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25A737E1CADFBDA0057B712 /* AVFoundation.framework */; };
+		B25A73831CAE0B810057B712 /* YjiLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25A73821CAE0B810057B712 /* YjiLocationManager.swift */; };
+		B27CEC791CA80B7400489E43 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CEC781CA80B7400489E43 /* UIView+Additions.m */; };
+		B2BD3B5B1CA7E9D800E6FADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD3B5A1CA7E9D800E6FADF /* AppDelegate.swift */; };
+		B2BD3B601CA7E9D800E6FADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BD3B5E1CA7E9D800E6FADF /* Main.storyboard */; };
+		B2BD3B621CA7E9D800E6FADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BD3B611CA7E9D800E6FADF /* Assets.xcassets */; };
+		B2C369331CAF6BD100F48F87 /* startView.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C369321CAF6BD100F48F87 /* startView.png */; };
+		DB6CDD1F1F0F786D0039AB16 /* mappin.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CDD1C1F0F786D0039AB16 /* mappin.png */; };
+		DB6CDD201F0F786D0039AB16 /* mappin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CDD1D1F0F786D0039AB16 /* mappin@2x.png */; };
+		DB6CDD211F0F786D0039AB16 /* mappin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CDD1E1F0F786D0039AB16 /* mappin@3x.png */; };
+		DB9649531F049B7300FA3125 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96494E1F049B7300FA3125 /* CGRectEx.swift */; };
+		DB9649541F049B7300FA3125 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96494F1F049B7300FA3125 /* FadeTransition.swift */; };
+		DB9649551F049B7300FA3125 /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9649501F049B7300FA3125 /* NSTimerEx.swift */; };
+		DB9649561F049B7300FA3125 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9649511F049B7300FA3125 /* SpinerLayer.swift */; };
+		DB9649571F049B7300FA3125 /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9649521F049B7300FA3125 /* TransitionSubmitButton.swift */; };
+		DB9649591F04A6CD00FA3125 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9649581F04A6CD00FA3125 /* UserNotifications.framework */; };
+		DB96495C1F04D06E00FA3125 /* help_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB96495B1F04D06E00FA3125 /* help_icon.png */; };
+		DB9649601F04F34500FA3125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB96495E1F04F34500FA3125 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51F5798651525D656278D149 /* Pods-YjiLocationClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YjiLocationClock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YjiLocationClock/Pods-YjiLocationClock.debug.xcconfig"; sourceTree = "<group>"; };
+		B22248BD1CABFADD002C3DD2 /* YjiBaseVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YjiBaseVc.swift; path = ViewControllers/YjiBaseVc.swift; sourceTree = "<group>"; };
+		B22248BE1CABFADD002C3DD2 /* YjiGMapSearchVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YjiGMapSearchVc.swift; path = ViewControllers/YjiGMapSearchVc.swift; sourceTree = "<group>"; };
+		B22248BF1CABFADD002C3DD2 /* YjiStartVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YjiStartVc.swift; path = ViewControllers/YjiStartVc.swift; sourceTree = "<group>"; };
+		B22248C41CABFB2C002C3DD2 /* YjiMapTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YjiMapTask.swift; path = Functions/YjiMapTask.swift; sourceTree = "<group>"; };
+		B22248C61CAC0FB7002C3DD2 /* YjiComFuncs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YjiComFuncs.swift; path = Functions/YjiComFuncs.swift; sourceTree = "<group>"; };
+		B25A737E1CADFBDA0057B712 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B25A73821CAE0B810057B712 /* YjiLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YjiLocationManager.swift; path = Functions/YjiLocationManager.swift; sourceTree = "<group>"; };
+		B27CEC761CA80B7300489E43 /* YjiLocationClock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YjiLocationClock-Bridging-Header.h"; sourceTree = "<group>"; };
+		B27CEC771CA80B7400489E43 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Additions.h"; path = "Extension/UIView+Additions.h"; sourceTree = "<group>"; };
+		B27CEC781CA80B7400489E43 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additions.m"; path = "Extension/UIView+Additions.m"; sourceTree = "<group>"; };
+		B2BD3B571CA7E9D800E6FADF /* YjiLocationClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YjiLocationClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BD3B5A1CA7E9D800E6FADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2BD3B5F1CA7E9D800E6FADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2BD3B611CA7E9D800E6FADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2BD3B661CA7E9D800E6FADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C369321CAF6BD100F48F87 /* startView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startView.png; path = Images/startView.png; sourceTree = "<group>"; };
+		C3B3A4B67F099A328658BADC /* Pods-YjiLocationClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YjiLocationClock.release.xcconfig"; path = "Pods/Target Support Files/Pods-YjiLocationClock/Pods-YjiLocationClock.release.xcconfig"; sourceTree = "<group>"; };
+		DB6CDD1C1F0F786D0039AB16 /* mappin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mappin.png; path = Images/mappin.png; sourceTree = "<group>"; };
+		DB6CDD1D1F0F786D0039AB16 /* mappin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mappin@2x.png"; path = "Images/mappin@2x.png"; sourceTree = "<group>"; };
+		DB6CDD1E1F0F786D0039AB16 /* mappin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mappin@3x.png"; path = "Images/mappin@3x.png"; sourceTree = "<group>"; };
+		DB96494E1F049B7300FA3125 /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
+		DB96494F1F049B7300FA3125 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		DB9649501F049B7300FA3125 /* NSTimerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerEx.swift; sourceTree = "<group>"; };
+		DB9649511F049B7300FA3125 /* SpinerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinerLayer.swift; sourceTree = "<group>"; };
+		DB9649521F049B7300FA3125 /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionSubmitButton.swift; sourceTree = "<group>"; };
+		DB9649581F04A6CD00FA3125 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		DB96495B1F04D06E00FA3125 /* help_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help_icon.png; path = Images/help_icon.png; sourceTree = "<group>"; };
+		DB96495F1F04F34500FA3125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F93331255567D3D5F2901B32 /* Pods_YjiLocationClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YjiLocationClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2BD3B541CA7E9D800E6FADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9649591F04A6CD00FA3125 /* UserNotifications.framework in Frameworks */,
+				B25A737F1CADFBDA0057B712 /* AVFoundation.framework in Frameworks */,
+				7A1F59837DE30FE80A944C4C /* Pods_YjiLocationClock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D056502289D73D7AA34396C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51F5798651525D656278D149 /* Pods-YjiLocationClock.debug.xcconfig */,
+				C3B3A4B67F099A328658BADC /* Pods-YjiLocationClock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F9DAA18CC558E6AB8740BEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB9649581F04A6CD00FA3125 /* UserNotifications.framework */,
+				B25A737E1CADFBDA0057B712 /* AVFoundation.framework */,
+				F93331255567D3D5F2901B32 /* Pods_YjiLocationClock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B22248BC1CABFA98002C3DD2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B22248BD1CABFADD002C3DD2 /* YjiBaseVc.swift */,
+				B22248BF1CABFADD002C3DD2 /* YjiStartVc.swift */,
+				B22248BE1CABFADD002C3DD2 /* YjiGMapSearchVc.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B22248C31CABFAEA002C3DD2 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				B22248C41CABFB2C002C3DD2 /* YjiMapTask.swift */,
+				B22248C61CAC0FB7002C3DD2 /* YjiComFuncs.swift */,
+				B25A73821CAE0B810057B712 /* YjiLocationManager.swift */,
+			);
+			name = Functions;
+			sourceTree = "<group>";
+		};
+		B25A73871CAE6FC00057B712 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DB6CDD1C1F0F786D0039AB16 /* mappin.png */,
+				DB6CDD1D1F0F786D0039AB16 /* mappin@2x.png */,
+				DB6CDD1E1F0F786D0039AB16 /* mappin@3x.png */,
+				DB96495B1F04D06E00FA3125 /* help_icon.png */,
+				B2C369321CAF6BD100F48F87 /* startView.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B27CEC751CA80B5700489E43 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B27CEC771CA80B7400489E43 /* UIView+Additions.h */,
+				B27CEC781CA80B7400489E43 /* UIView+Additions.m */,
+				B27CEC761CA80B7300489E43 /* YjiLocationClock-Bridging-Header.h */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B2BD3B4E1CA7E9D800E6FADF = {
+			isa = PBXGroup;
+			children = (
+				B2BD3B591CA7E9D800E6FADF /* YjiLocationClock */,
+				B2BD3B581CA7E9D800E6FADF /* Products */,
+				1D056502289D73D7AA34396C /* Pods */,
+				4F9DAA18CC558E6AB8740BEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2BD3B581CA7E9D800E6FADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2BD3B571CA7E9D800E6FADF /* YjiLocationClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2BD3B591CA7E9D800E6FADF /* YjiLocationClock */ = {
+			isa = PBXGroup;
+			children = (
+				DB96494D1F049B7300FA3125 /* TKSubmitTransition */,
+				B25A73871CAE6FC00057B712 /* Images */,
+				B22248C31CABFAEA002C3DD2 /* Functions */,
+				B22248BC1CABFA98002C3DD2 /* ViewControllers */,
+				B27CEC751CA80B5700489E43 /* Extensions */,
+				B2BD3B5A1CA7E9D800E6FADF /* AppDelegate.swift */,
+				B2BD3B5E1CA7E9D800E6FADF /* Main.storyboard */,
+				DB96495E1F04F34500FA3125 /* LaunchScreen.storyboard */,
+				B2BD3B611CA7E9D800E6FADF /* Assets.xcassets */,
+				B2BD3B661CA7E9D800E6FADF /* Info.plist */,
+			);
+			path = YjiLocationClock;
+			sourceTree = "<group>";
+		};
+		DB96494D1F049B7300FA3125 /* TKSubmitTransition */ = {
+			isa = PBXGroup;
+			children = (
+				DB96494E1F049B7300FA3125 /* CGRectEx.swift */,
+				DB96494F1F049B7300FA3125 /* FadeTransition.swift */,
+				DB9649501F049B7300FA3125 /* NSTimerEx.swift */,
+				DB9649511F049B7300FA3125 /* SpinerLayer.swift */,
+				DB9649521F049B7300FA3125 /* TransitionSubmitButton.swift */,
+			);
+			path = TKSubmitTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2BD3B561CA7E9D800E6FADF /* YjiLocationClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BD3B691CA7E9D800E6FADF /* Build configuration list for PBXNativeTarget "YjiLocationClock" */;
+			buildPhases = (
+				15BB672477CBDC94A15E4E06 /* [CP] Check Pods Manifest.lock */,
+				B2BD3B531CA7E9D800E6FADF /* Sources */,
+				B2BD3B541CA7E9D800E6FADF /* Frameworks */,
+				B2BD3B551CA7E9D800E6FADF /* Resources */,
+				624F5BD5AA53B168D381E50E /* [CP] Embed Pods Frameworks */,
+				54B9C005646F628E88EAC3FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YjiLocationClock;
+			productName = YjiLocationClock;
+			productReference = B2BD3B571CA7E9D800E6FADF /* YjiLocationClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2BD3B4F1CA7E9D800E6FADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yji;
+				TargetAttributes = {
+					B2BD3B561CA7E9D800E6FADF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7SP3YGVP72;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2BD3B521CA7E9D800E6FADF /* Build configuration list for PBXProject "YjiLocationClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2BD3B4E1CA7E9D800E6FADF;
+			productRefGroup = B2BD3B581CA7E9D800E6FADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2BD3B561CA7E9D800E6FADF /* YjiLocationClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2BD3B551CA7E9D800E6FADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6CDD211F0F786D0039AB16 /* mappin@3x.png in Resources */,
+				B2C369331CAF6BD100F48F87 /* startView.png in Resources */,
+				DB6CDD201F0F786D0039AB16 /* mappin@2x.png in Resources */,
+				DB96495C1F04D06E00FA3125 /* help_icon.png in Resources */,
+				B2BD3B621CA7E9D800E6FADF /* Assets.xcassets in Resources */,
+				DB9649601F04F34500FA3125 /* LaunchScreen.storyboard in Resources */,
+				DB6CDD1F1F0F786D0039AB16 /* mappin.png in Resources */,
+				B2BD3B601CA7E9D800E6FADF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15BB672477CBDC94A15E4E06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54B9C005646F628E88EAC3FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YjiLocationClock/Pods-YjiLocationClock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		624F5BD5AA53B168D381E50E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YjiLocationClock/Pods-YjiLocationClock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2BD3B531CA7E9D800E6FADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9649571F049B7300FA3125 /* TransitionSubmitButton.swift in Sources */,
+				B22248C11CABFADD002C3DD2 /* YjiGMapSearchVc.swift in Sources */,
+				B22248C01CABFADD002C3DD2 /* YjiBaseVc.swift in Sources */,
+				B22248C21CABFADD002C3DD2 /* YjiStartVc.swift in Sources */,
+				B25A73831CAE0B810057B712 /* YjiLocationManager.swift in Sources */,
+				DB9649531F049B7300FA3125 /* CGRectEx.swift in Sources */,
+				B22248C71CAC0FB7002C3DD2 /* YjiComFuncs.swift in Sources */,
+				DB9649551F049B7300FA3125 /* NSTimerEx.swift in Sources */,
+				DB9649541F049B7300FA3125 /* FadeTransition.swift in Sources */,
+				B27CEC791CA80B7400489E43 /* UIView+Additions.m in Sources */,
+				B22248C51CABFB2C002C3DD2 /* YjiMapTask.swift in Sources */,
+				DB9649561F049B7300FA3125 /* SpinerLayer.swift in Sources */,
+				B2BD3B5B1CA7E9D800E6FADF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2BD3B5E1CA7E9D800E6FADF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BD3B5F1CA7E9D800E6FADF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB96495E1F04F34500FA3125 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB96495F1F04F34500FA3125 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2BD3B671CA7E9D800E6FADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2BD3B681CA7E9D800E6FADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2BD3B6A1CA7E9D800E6FADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F5798651525D656278D149 /* Pods-YjiLocationClock.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7SP3YGVP72;
+				INFOPLIST_FILE = YjiLocationClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.yjiLocationClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "YjiLocationClock/YjiLocationClock-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2BD3B6B1CA7E9D800E6FADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B3A4B67F099A328658BADC /* Pods-YjiLocationClock.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: YUN JI (FB7WTB4847)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7SP3YGVP72;
+				INFOPLIST_FILE = YjiLocationClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.yjiLocationClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "YjiLocationClock/YjiLocationClock-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2BD3B521CA7E9D800E6FADF /* Build configuration list for PBXProject "YjiLocationClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BD3B671CA7E9D800E6FADF /* Debug */,
+				B2BD3B681CA7E9D800E6FADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BD3B691CA7E9D800E6FADF /* Build configuration list for PBXNativeTarget "YjiLocationClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BD3B6A1CA7E9D800E6FADF /* Debug */,
+				B2BD3B6B1CA7E9D800E6FADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2BD3B4F1CA7E9D800E6FADF /* Project object */;
+}

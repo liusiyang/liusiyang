@@ -1,0 +1,31 @@
+PODS:
+  - EasyTipView (1.0.2)
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.3.1):
+    - GoogleMaps (= 2.3.1)
+    - GooglePlaces (= 2.3.1)
+  - GooglePlaces (2.3.1):
+    - GoogleMaps/Base (= 2.3.1)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - EasyTipView (~> 1.0.2)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - SnapKit
+
+SPEC CHECKSUMS:
+  EasyTipView: b93a19be981cc2221d6d7191d49872f547e0bebf
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  GooglePlacePicker: fc3564ac7a2ce314e78e42bfc1e16822ad1e5488
+  GooglePlaces: 4a7b22debfa1af65017b82943431822607e45201
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 7c143e19ebe87c7a5373d64b73fd6e6585505d2f
+
+COCOAPODS: 1.1.1
